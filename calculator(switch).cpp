@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int num1, num2, result;
+    double num1, num2, result;
     char op;
 
     // Input
@@ -42,6 +42,5 @@ int main() {
     }
 
     cout << num1 << " " << op << " " << num2 << " = " << result << endl;
-
     return 0;
 }
